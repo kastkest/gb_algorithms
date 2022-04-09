@@ -1,4 +1,4 @@
-package com.github.kastkest.algorithms.hw1;
+package com.github.kastkest.algorithms.hw2;
 
 
 import java.util.Random;

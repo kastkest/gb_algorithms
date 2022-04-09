@@ -1,4 +1,4 @@
-package com.github.kastkest.algorithms.hw1;
+package com.github.kastkest.algorithms.hw2;
 
 public class Notebook {
     private int price;
