@@ -1,16 +1,18 @@
 package com.github.kastkest.algorithms.hw4;
 
-public interface Deque<E> extends Queue<E>{
+public interface Deque<E>{
 
-    boolean insertLeft(E value);
+    void insertLeft(E value);
 
-    boolean insertRight(E value);
+    void insertRight(E value);
 
     E removeLeft();
 
     E removeRight();
 
-    E peekFront();
+    E peekLeft();
+
+    E peekRight();
 
     int size();
 
