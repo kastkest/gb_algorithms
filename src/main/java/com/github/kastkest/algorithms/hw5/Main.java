@@ -14,7 +14,7 @@ public class Main {
         }
     }
 
-    int richBag(int[] w, int[] v, int numberOfGoods, int maxWeight) {
+    private static int richBag(int[] w, int[] v, int numberOfGoods, int maxWeight) {
         if (numberOfGoods <= 0) {
             return 0;
         } else if (w[numberOfGoods - 1] > maxWeight) {
