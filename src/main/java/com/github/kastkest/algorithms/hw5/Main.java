@@ -13,4 +13,14 @@ public class Main {
             return number * calc(number, degree - 1);
         }
     }
+
+    int richBag(int[] w, int[] v, int numberOfGoods, int maxWeight) {
+        if (numberOfGoods <= 0) {
+            return 0;
+        } else if (w[numberOfGoods - 1] > maxWeight) {
+            return richBag(w, v, numberOfGoods - 1, maxWeight);
+        } else {
+            return Math.max(richBag(w, v, numberOfGoods - 1, maxWeight), v[numberOfGoods - 1] + richBag(w, v, numberOfGoods - 1, maxWeight - w[numberOfGoods - 1]));
+        }
+    }
 }
