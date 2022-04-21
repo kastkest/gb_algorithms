@@ -1,6 +1,7 @@
 package com.github.kastkest.hw3;
 
-public class Main {
+public class
+Main {
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 6, 7, 8, 9, 11, 10, 12, 13, 14, 15, 16};
 
